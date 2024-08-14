@@ -1,0 +1,13 @@
+Package: spatialEpisim.data
+Type: Package
+Title: Preaggregated WorldPop data for spatialEpisim
+Version: 0.1.0
+Author: Bryce Carson
+Maintainer: Bryce Carson <bryce.a.carson@gmail.com>
+Description: WorldPop UN-adjusted 2020 raster data preaggregated from 1 km data with `terra::aggregate` with `fact` arguments from `2` to `100`. The package also includes "seed data", which is compartmental epidemic simulation compartment count data for various countries, at various times, in the "short list" of interesting countries which Ashok Krishnamurthy, Ph.D., Mount Royal University maintains.
+License: GPL (>= 3)
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Suggests: 
+    readxl,
+    terra
